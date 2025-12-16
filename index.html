@@ -4,73 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cherry Blossom</title>
-    <link rel="icon" href="./img/logo.png"></link>
+    <link rel="icon" href="./img/logo.svg"></link>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="burger-container">
-                    <div class="header__burger-menu">
-                        <div class="header__burger-lines">
-                            <span class="header__line1"></span>
-                            <span class="header__line2"></span>
-                        </div>
-                    </div>
-                </div>
+        <div class="header__container">
+            <div class="header__burger-container">
+                <button class="header__burger-btn header__btn">
+                    <span class="header__burger"></span>
+                    <span class="header__burger"></span>
+                </button>
+            </div>
+
+            <a href="#">
+                <img src="./img/logo.svg" alt="logo" class="header__logo">
+            </a>
+
+            <div class="header__actions">
+                <button class="header__search header__btn">
+                    <img src="./img/search-icon.svg" alt="search" class="header__search-icon">
+                </button>
                 
-                <a href="#"><img src="./img/logo.png" alt="logo" class="header__logo"></a>
-                <div class="header__top-btns">
-                    <button class="header__search">
-                        <img src="./img/search-icon.png" alt="search-icon" class="header__search-icon">
-                    </button>
-
-                    <button class="header__cart">
-                        <img src="./img/cart-icon.png" alt="cart-icon" class="header__cart-icon">
-                        <p class="header__cart-cost">0$</p>
-                    </button>
-                </div>
+                <button class="header__cart header__btn">
+                    <img src="./img/cart-icon.svg" alt="cart" class="header__cart-icon">
+                    <p class="header__cost">0$</p>
+                </button>
             </div>
         </div>
+    </header>
 
-        <div class="header__main">
-            <div class="header__main-content">
-                <h1 class="header__title">Choose flowers for any occasion</h1>
-                <p class="header__text">Our goal is to provide the highest quality and fresh flower delivery in Los Angeles.</p>
-                <button class="header__main-btn">View now</button>
-            </div>
-        </div>
+    <main>
+        <section class="hero">
+            <p class="hero__title">Choose flowers for any occasion</p>
+            <p class="hero__text">Our goal is to provide the highest quality and fresh flower delivery in Los Angeles.</p>
+            <button class="hero__btn">View now</button>
+        </section>
 
-        <div class="header__footer">
-            <div class="header__footer-wrapper">
-                <div class="header__footer-p">
+        <section class="features">
+            <div class="features__container">
+                <div class="features__text">
                     <div>
                         <p>Need flowers delivered today?</p>
                         <p>Call or chat us</p>
                     </div>
                 </div>
-                <div class="header__footer-img">
-                    <img src="./img/car-icon.png" alt="car">
+                <div class="features__img">
+                    <img src="./img/car.svg" alt="car">
                 </div>
                 
             </div>
 
-            <div class="header__footer-wrapper">
-                <div class="header__footer-p">
+            <div class="features__container">
+                <div class="features__text">
                     <p>Free delivery within 4 miles</p>
                     <p>No minimum order</p>
                 </div>
-                <div class="header__footer-img">
-                    <img src="./img/delivery-icon.png" alt="delivery">
+                <div class="features__img">
+                    <img src="./img/delivery.svg" alt="delivery">
                 </div>
                 
             </div>
-        </div>
-    </header>
-
-
+        </section>
+    </main>
 
     <script src="./script.js"></script>
 </body>
