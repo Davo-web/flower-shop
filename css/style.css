@@ -246,7 +246,6 @@ body {
     gap: 40px;
     margin: 0 auto;
     width: 978px;
-    align-items: center;
 }
 
 .products__title {
@@ -258,11 +257,17 @@ body {
 
 .products__card-wrapper {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 987px;
+    height: 810px;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
 .products__card {
+    width: 289px;
+    height: 384px;
     border-radius: 5px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25), -1px -1px 4px 0 rgba(0, 0, 0, 0.25);
     transition: .2s ease-in-out;
@@ -276,11 +281,6 @@ body {
     border-radius: 5px 5px 0 0;
     width: 313px;
     height: 290px;
-}
-
-.products__first-row, .products__second-row {
-    display: flex;
-    gap: 55px;
 }
 
 .products__description {
