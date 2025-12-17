@@ -535,14 +535,18 @@ body {
     width: 270px;
 }
 
-.subscribe__subtitle::after {
-    position: absolute;
-    content: url(../img/subscribe-input-btn.svg);
-    top: 42px;
-    right: 630px;
-    cursor: pointer;
-}
-
 .subscribe__input:focus {
     outline-color: #665F5F;
+}
+
+.subscribe__input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.subscribe__btn {
+    padding: 0 10px 0 5px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
 }
