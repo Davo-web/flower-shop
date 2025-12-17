@@ -362,10 +362,11 @@ body {
 }
 
 .collection__card {
+    position: relative;
     cursor: pointer;
     border-radius: 5px;
-    width: 365px;
-    height: 339px;
+    width: 280px;
+    height: 254px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -374,16 +375,27 @@ body {
     overflow: hidden;
 }
 
+.collection__card::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: inset 0px 31px 31px 0 #fff, inset -0px -31px 31px 0 #665f5f;
+    background: linear-gradient(180deg, #fff 0%, #857b7b 100%);
+    opacity: 0.4;
+}
+
 .collection__card:hover {
     transform: scale(0.95);
     opacity: 0.9;
 }
 
 .collection__card-title {
-    width: 287px;
+    width: 250px;
     z-index: 2;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
@@ -437,16 +449,6 @@ body {
     background-image: url(../img/collection12.jpg);
 }
 
-.collection__card::after {
-    content: '';
-    position: absolute;
-    width: 365px;
-    height: 339px;
-    border-radius: 5px;
-    box-shadow: inset 0px 31px 31px 0 #fff, inset -0px -31px 31px 0 #665f5f;
-    background: linear-gradient(180deg, #fff 0%, #857b7b 100%);
-    opacity: 0.4;
-}
 
 
 
