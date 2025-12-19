@@ -550,3 +550,159 @@ body {
     top: 10px;
     right: 0px;
 }
+
+
+
+
+
+/* FAQ */
+
+.FAQ__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 124%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.FAQ__questions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.FAQ__question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ__question-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 200%;
+}
+
+
+
+/* Follow */
+
+.follow {
+    text-align: center;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.follow__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 124%;
+    text-transform: uppercase;
+}
+
+.follow__link {
+    color: #665f5f;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 124%;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.follow__img {
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+
+
+
+
+/* Blogs */
+
+.blogs {
+    text-align: center;
+    margin-bottom: 46px;
+    background-color: #ffd1d7;
+    padding: 31px 0 42px 0;
+}
+
+.blogs__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 124%;
+    margin-bottom: 30px;
+}
+
+.blogs__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.blogs__card {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25), -1px -1px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: 289px;
+    height: 385px;
+    transition: .2s ease-in-out;
+}
+
+.blogs__card:hover {
+    transform: scale(1.05);
+}
+
+.blogs__img {
+    border-radius: 5px 5px 0 0;
+    width: 289px;
+    height: 238px;
+}
+
+.blogs__description {
+    text-align: left;
+    height: 95px;
+    padding: 24px 16px;
+}
+
+.blogs__card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124%;
+    margin-bottom: 10px;
+}
+
+.blogs__card-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 124%;
+}
+
+.blogs__arrow {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.blogs__arrow-left {
+    margin-right: 36px;
+}
+
+.blogs__arrow-right {
+    margin-left: 36px;
+}

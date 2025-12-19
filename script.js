@@ -7,4 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
     });
+    
+
+    // draft for FAQ
+    const faqBtn = document.querySelectorAll('.FAQ__btn');
+    faqBtn.forEach(btn => {
+            console.log(btn)
+        })
 })
