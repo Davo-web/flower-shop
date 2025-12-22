@@ -4,10 +4,11 @@
         url('../fonts/Montserrat-Medium.woff2') format('woff2'),
         url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
         url('../fonts/Montserrat-Bold.woff2') format('woff2');
-    font-weight: bold, medium, regular, semibold;
+    font-weight: 400 500 600 700;
     font-style: normal;
     font-display: swap;
 }
+
 body {
     font-family: Montserrat ,serif;
     background-color: #fff;
@@ -170,7 +171,7 @@ body {
 }
 
 .hero__btn:hover {
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 .hero__text::after {
@@ -199,6 +200,10 @@ body {
     z-index: 2;
     filter: blur(2px);
 }
+
+
+
+
 
 /* Функции */
 
@@ -800,10 +805,8 @@ body {
     margin-top: 51px;
 }
 
-.footer ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.footer li{
+    line-height: 1.8;
 }
 
 .footer a {
@@ -843,7 +846,8 @@ body {
     width: 165px;
 }
 
-.footer__tel, .footer__tel:link, .footer__tel:visited, .footer__tel:hover, .footer__mail, .footer__mail:link, .footer__mail:visited, .footer__mail:hover {
+.footer__tel, .footer__tel:link, .footer__tel:visited, .footer__tel:hover,
+.footer__mail, .footer__mail:link, .footer__mail:visited, .footer__mail:hover {
     text-decoration: underline;
 }
 
@@ -856,4 +860,23 @@ body {
 
 .footer__social-media img:hover {
     transform: scale(1.1);
+}
+
+.footer li a {
+    position: relative;
+}
+
+.footer li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: .8px;
+    background-color: #000;
+    transition: .4s ease-in-out;
+}
+
+.footer li a:hover::after {
+    width: 100%;
 }
