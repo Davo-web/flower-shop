@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Прокрутка старницы вверх при нажатии на логотип
     const headerLogo = document.querySelector('.header__logo');
     headerLogo.addEventListener('click', function(e){
         e.preventDefault();
@@ -8,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-
+    // Появление ответа и вращение стрелки
     const answer = document.querySelectorAll('.FAQ__answer');
     let answerList = Array.from(answer);
     const faqBtnList = document.querySelectorAll('.FAQ__btn');
