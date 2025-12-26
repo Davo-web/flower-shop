@@ -423,50 +423,74 @@ body {
 
 .collection__card:nth-of-type(1){
     background-image: url(../img/collection1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(2){
     background-image: url(../img/collection2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(3){
     background-image: url(../img/collection3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(4){
     background-image: url(../img/collection4.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(5){
     background-image: url(../img/collection5.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(6){
     background-image: url(../img/collection6.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(7){
     background-image: url(../img/collection7.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(8){
     background-image: url(../img/collection8.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(9){
     background-image: url(../img/collection9.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(10){
     background-image: url(../img/collection10.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(11){
     background-image: url(../img/collection11.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .collection__card:nth-of-type(12){
     background-image: url(../img/collection12.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
