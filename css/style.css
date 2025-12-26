@@ -599,6 +599,8 @@ body {
 
 
 
+
+
 /* FAQ */
 
 .FAQ__title {
@@ -629,6 +631,27 @@ body {
     font-size: 22px;
     line-height: 200%;
 }
+
+.FAQ__answer {
+    padding: 0 50px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-in-out;
+}
+
+.FAQ__answer.active {
+    max-height: 100px;
+}
+
+.FAQ__btn img {
+    transition: .4s ease-in-out;
+}
+
+.FAQ__btn.active img {
+    transform: rotateZ(180deg);
+}
+
+
 
 
 
@@ -661,6 +684,10 @@ body {
     margin-top: 40px;
     margin-bottom: 90px;
 }
+
+
+
+
 
 
 
@@ -754,6 +781,10 @@ body {
 
 
 
+
+
+
+
 /* Address */
 
 .address {
@@ -797,6 +828,9 @@ body {
 .address__city {
     margin-bottom: 20px;
 }
+
+
+
 
 
 

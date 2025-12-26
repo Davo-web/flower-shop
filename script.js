@@ -9,9 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 
-    // draft for FAQ
-    const faqBtn = document.querySelectorAll('.FAQ__btn');
-    faqBtn.forEach(btn => {
-            console.log(btn)
-        })
+    const answer = document.querySelectorAll('.FAQ__answer');
+    let answerList = Array.from(answer);
+    const faqBtnList = document.querySelectorAll('.FAQ__btn');
+    let faqBtn = Array.from(faqBtnList);
+    faqBtn.forEach((btn, index) => {
+            btn.addEventListener('click', function() {
+                answerList[index].classList.toggle('active');
+                btn.classList.toggle('active');
+            })
+    })
 })
